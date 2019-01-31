@@ -23,6 +23,5 @@ class CashRegister
 
   def items
     self.items
-
   end
 end
