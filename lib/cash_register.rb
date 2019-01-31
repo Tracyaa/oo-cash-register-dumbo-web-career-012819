@@ -11,7 +11,6 @@ class CashRegister
   end
 
   def apply_discount
-    self.add_item
     @total -= @discount
     return "After the discount, the total comes to $#{@total}."
     # if @discount == nil
